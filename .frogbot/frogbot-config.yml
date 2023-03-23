@@ -11,7 +11,7 @@
       # [Mandatory]
       # List of branches to scan
       branches:
-        - main
+        - develop
 
     # Frogbot scanning parameters
     scan:
@@ -50,9 +50,9 @@
     jfrogPlatform:
     # [Optional]
     # JFrog project key. Learn more about it [here](https://www.jfrog.com/confluence/display/JFROG/Projects)
-    # jfrogProjectKey: ""
+     jfrogProjectKey: ""
 
     # [Optional]
     # Xray Watches. Learn more about it [here](https://www.jfrog.com/confluence/display/JFROG/Configuring+Xray+Watches)
-    # watches:
-    #  - ""
+     watches:
+      - frogbot-test-watch
