@@ -21,7 +21,7 @@
 
       # [Default: true]
       # Frogbot does not fail the task if security issues are found and this parameter is set to false
-      failOnSecurityIssues: false
+      failOnSecurityIssues: true
 
       # List of subprojects / project dirs inside the Git repository
       projects:
